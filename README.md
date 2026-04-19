@@ -8,9 +8,9 @@ compiled-in public key before activation.
 
 ## Layout
 
-- `fw/bm-esp32-<version>.bin` — firmware image for the LilyGo
+- `fw/bm-esp32s3-<version>.bin` — firmware image for the LilyGo
   T-SIM7080G (ESP32-S3).
-- `fw/bm-esp32-<version>.sig` — raw 64-byte Ed25519 signature over
+- `fw/bm-esp32s3-<version>.sig` — raw 64-byte Ed25519 signature over
   the corresponding `.bin` bytes.
 
 ## Signature verification
