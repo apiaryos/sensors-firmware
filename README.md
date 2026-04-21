@@ -1,4 +1,4 @@
-# bm-firmware-releases
+# sensors-firmware
 
 Signed firmware binaries for an ESP32-S3 BLE scanner project.
 
@@ -8,10 +8,12 @@ compiled-in public key before activation.
 
 ## Layout
 
-- `fw/bm-esp32s3-<version>.bin` — firmware image for the LilyGo
+- `scanner-esp32s3-<version>.bin` — firmware image for the LilyGo
   T-SIM7080G (ESP32-S3).
-- `fw/bm-esp32s3-<version>.sig` — raw 64-byte Ed25519 signature over
+- `scanner-esp32s3-<version>.sig` — raw 64-byte Ed25519 signature over
   the corresponding `.bin` bytes.
+
+Source: https://github.com/apiaryos/sensors-ble-scan
 
 ## Signature verification
 
@@ -35,4 +37,4 @@ per-device credentials provisioned into flash NVS.
 ---
 
 Commits on this repo are produced automatically by CI on tag
-pushes upstream.
+pushes to [apiaryos/sensors-ble-scan](https://github.com/apiaryos/sensors-ble-scan).
